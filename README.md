@@ -4,7 +4,7 @@
 
 # Watch the Video
 
-[![Watch the video](FinalOutput.png)](FinalOutpitVideo.mp4)
+![](https://github.com/SureshKumarRamesh/piperedge_interview_task/blob/main/FinalOutputVideo.gif)
 
 # Getting Started with Create React App
 
