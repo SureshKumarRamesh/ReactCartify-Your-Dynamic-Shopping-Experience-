@@ -40,6 +40,8 @@ function ShoppingTable() {
       customRender: (value, index) => {
         return (
           <div
+            tag={index}
+            onClick={() => removeToCart(index)}
             style={{
               backgroundColor: "red",
               color: "white",
@@ -47,7 +49,7 @@ function ShoppingTable() {
               cursor: "pointer",
             }}
           >
-            <span tag={index} onClick={() => removeToCart(index)}>
+            <span tag={index} style={{ width: "100%" }}>
               Remove Cart
             </span>
           </div>

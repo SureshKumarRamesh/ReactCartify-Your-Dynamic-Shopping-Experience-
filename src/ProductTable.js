@@ -43,6 +43,8 @@ function ProductTable() {
       customRender: (value, index) => {
         return (
           <div
+            tag={index}
+            onClick={() => addToCart(value, index)}
             style={{
               backgroundColor: "green",
               color: "white",
@@ -51,7 +53,7 @@ function ProductTable() {
               cursor: "pointer",
             }}
           >
-            <span tag={index} onClick={() => addToCart(value, index)}>
+            <span tag={index} style={{ width: "100%" }}>
               Add To Cart
             </span>
           </div>
